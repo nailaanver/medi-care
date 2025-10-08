@@ -118,7 +118,7 @@ export default function DashboardLayout({
           </svg>
           <span>MediCare</span>
         </Link>
-        <div className="flex-1"></div>
+        {/* <div className="flex-1"></div>
         <div className="flex items-center gap-4">
           <Button variant="outline" size="icon" className="rounded-full">
             <svg
@@ -142,7 +142,7 @@ export default function DashboardLayout({
             <AvatarImage src="/placeholder.svg" alt="User" />
             <AvatarFallback>AD</AvatarFallback>
           </Avatar>
-        </div>
+        </div> */}
       </header>
       <div className="grid md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr]">
         <aside className="hidden border-r bg-muted/40 md:block">
