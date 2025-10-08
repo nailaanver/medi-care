@@ -367,14 +367,14 @@ export default function PatientsPage() {
                           </div>
                         </div>
                       </div>
-                      <div className="flex items-center gap-2">
+                      {/* <div className="flex items-center gap-2">
                         <Button variant="outline" size="sm">
                           View Profile
                         </Button>
                         <Button variant="outline" size="sm">
                           Schedule
                         </Button>
-                      </div>
+                      </div> */}
                     </div>
                   ))}
               </div>
@@ -409,14 +409,14 @@ export default function PatientsPage() {
                           </div>
                         </div>
                       </div>
-                      <div className="flex items-center gap-2">
+                      {/* <div className="flex items-center gap-2">
                         <Button variant="outline" size="sm">
                           View Profile
                         </Button>
                         <Button variant="outline" size="sm">
                           Activate
                         </Button>
-                      </div>
+                      </div> */}
                     </div>
                   ))}
               </div>
