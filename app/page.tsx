@@ -39,9 +39,9 @@ export default function Home() {
             <Link href="/login">
               <Button variant="outline">Log In</Button>
             </Link>
-            <Link href="/register" className="hidden md:block">
+            {/* <Link href="/register" className="hidden md:block">
               <Button>Sign Up</Button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </header>

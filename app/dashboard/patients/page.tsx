@@ -271,7 +271,7 @@ export default function PatientsPage() {
                     <th className="h-12 px-4 text-left align-middle font-medium">Age/Gender</th>
                     <th className="h-12 px-4 text-left align-middle font-medium">Last Visit</th>
                     <th className="h-12 px-4 text-left align-middle font-medium">Status</th>
-                    <th className="h-12 px-4 text-left align-middle font-medium">Actions</th>
+                    {/* <th className="h-12 px-4 text-left align-middle font-medium">Actions</th> */}
                   </tr>
                 </thead>
                 <tbody>
@@ -321,7 +321,7 @@ export default function PatientsPage() {
                             {patient.status}
                           </Badge>
                         </td>
-                        <td className="p-4 align-middle">
+                        {/* <td className="p-4 align-middle">
                           <div className="flex items-center gap-2">
                             <Button variant="ghost" size="sm">
                               View
@@ -330,7 +330,7 @@ export default function PatientsPage() {
                               Edit
                             </Button>
                           </div>
-                        </td>
+                        </td> */}
                       </tr>
                     ))
                   )}
