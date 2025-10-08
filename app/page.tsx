@@ -64,11 +64,11 @@ export default function Home() {
                       Get Started
                     </Button>
                   </Link>
-                  <Link href="#demo">
+                  {/* <Link href="#demo">
                     <Button size="lg" variant="outline">
                       View Demo
                     </Button>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="flex items-center justify-center">
