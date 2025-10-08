@@ -346,7 +346,7 @@ export default function PharmacyPage() {
                         <th className="h-12 px-4 text-left align-middle font-medium">Stock</th>
                         <th className="h-12 px-4 text-left align-middle font-medium">Manufacturer</th>
                         <th className="h-12 px-4 text-left align-middle font-medium">Expiry Date</th>
-                        <th className="h-12 px-4 text-left align-middle font-medium">Actions</th>
+                        {/* <th className="h-12 px-4 text-left align-middle font-medium">Actions</th> */}
                       </tr>
                     </thead>
                     <tbody>
@@ -366,14 +366,14 @@ export default function PharmacyPage() {
                           <td className="p-4 align-middle">{medicine.manufacturer}</td>
                           <td className="p-4 align-middle">{new Date(medicine.expiryDate).toLocaleDateString()}</td>
                           <td className="p-4 align-middle">
-                            <div className="flex items-center gap-2">
+                            {/* <div className="flex items-center gap-2">
                               <Button variant="ghost" size="sm">
                                 Edit
                               </Button>
                               <Button variant="ghost" size="sm">
                                 Restock
                               </Button>
-                            </div>
+                            </div> */}
                           </td>
                         </tr>
                       ))}
