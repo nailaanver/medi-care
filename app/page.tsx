@@ -73,7 +73,7 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-center">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/main-img.svg"
                   alt="Clinic Management Dashboard"
                   width={600}
                   height={400}
